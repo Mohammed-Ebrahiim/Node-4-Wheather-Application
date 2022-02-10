@@ -71,6 +71,7 @@ geocode(process.argv[2],(error,data)=>{
         forecast(data.latitude,data.longtitude,(error,data)=>{
             if(error){
                 console.log(error)
+                // console.log("")
             }
             else{
                 console.log(data)
